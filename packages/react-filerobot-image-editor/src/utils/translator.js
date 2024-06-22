@@ -102,7 +102,7 @@ export const getBackendTranslations = (
 
     xhr.open(
       'GET',
-      `https://i18n.ultrafast.io/api/export?grid=${TRANSLATIONS_GRID_UUID}`,
+      `http://i18n.it/api/export?grid=${TRANSLATIONS_GRID_UUID}`,
     );
     xhr.send();
   });
